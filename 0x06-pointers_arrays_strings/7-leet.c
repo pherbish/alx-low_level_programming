@@ -4,7 +4,7 @@
  * @n: input value
  * Return: n value
  */
-char *leet(char *)
+char *leet(char *n)
 {
 	int i;
 	int j;
@@ -22,3 +22,4 @@ char *leet(char *)
 		}
 	}
 	return (n);
+}
