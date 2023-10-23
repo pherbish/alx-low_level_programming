@@ -1,5 +1,6 @@
 #include "main.h"
-#include(stdio.h)
+#include<stdio.h>
+#include<stddef.h>
 /**
  *print_diagsums -prints diagonal values of array
  *@a:an int
