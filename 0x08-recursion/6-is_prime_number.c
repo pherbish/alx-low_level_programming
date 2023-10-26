@@ -22,7 +22,7 @@ return (is_prime_num(a, b + 1));
  * @n:input
  * Return:0
  */
-is_prime_number(int n)
+int is_prime_number(int n)
 {
 	return (is_prime_num(n, 2));
 			}
