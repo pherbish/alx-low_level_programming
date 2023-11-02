@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stddef.h>
 /**
  * array_range-allocates memory to int of max amd min
  * @min:minimun int
@@ -24,7 +23,7 @@ int *array_range(int min, int max)
 	}
 	for (i = 0; i < j; i++)
 	{
-		ptr[i] == min;
+		ptr[i] = min;
 		min++;
 	}
 	return (ptr);
