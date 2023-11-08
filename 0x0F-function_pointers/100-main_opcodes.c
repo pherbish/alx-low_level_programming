@@ -10,7 +10,7 @@ void print_opcode(char *a, int n)
 {
 	int i;
 	
-	for (i = 0; i < a; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%.2hhx", a[i]);
 		if (i < n - 1)
